@@ -1,3 +1,23 @@
+# Fabrica de Software - Desafio Front-End
+
+## Tecnologias Usadas ⚛️
+
+- React(Components,UseState,UseEffect)
+- Javacript
+- CSS (TailwinsCSS e CSS Puro)
+- HTML
+
+### Desktop Preview
+
+[<img src="./src/assets/imgs/desktopView.png"/>]()
+
+[<img src="./src/assets/imgs/desktopViewGaleria.png"/>]()
+
+### Mobile Preview
+
+[<img src="./src/assets/imgs/mobileView.png"/>]()
+[<img src="./src/assets/imgs/mobileViewGaleria.png"/>]()
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
