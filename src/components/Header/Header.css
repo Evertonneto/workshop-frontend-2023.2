@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'starwars';
+    src: url('../../assets/fonts/Starjedi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.imgHeader:hover {
+    animation-name: goUp;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+nav a {
+    font-size: 1.6rem;
+    transition: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-in-out;
+
+    padding: 1rem;
+    font-family: 'starwars', helvetica;
+}
+
+nav a+a {
+    margin-left: 10px;
+}
+
+nav a:hover {
+    background-color: #212121;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+@keyframes goUp {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}

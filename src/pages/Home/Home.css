@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'starwars';
+    src: url('../../assets/fonts/Starjedi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.main p {
+    font-family: 'starwars';
+    letter-spacing: 2px;
+
+}

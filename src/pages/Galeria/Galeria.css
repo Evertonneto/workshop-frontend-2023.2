@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+@font-face {
+    font-family: 'starwars';
+    src: url('../../assets/fonts/Starjedi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+.containerGaleria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 3rem;
+}
+
+.containerGaleria h1 {
+    font-size: 3.5rem;
+    color: black;
+    padding: 1rem 2rem;
+    background-color: aliceblue;
+    font-family: 'starwars';
+    color: #ffd000;
+}
+
+@media (max-width:800px) {
+    .containerGaleria h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width:520px) {
+    .containerGaleria h1 {
+        font-size: 2rem;
+    }
+}
+
+.containerGaleria .cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 2rem;
+
+}
+
+.containerGaleria .cards .card h2 {
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+
+    text-align: center;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    color: #000;
+    border-radius: 2rem;
+    padding: 1rem;
+
+}
+
+.containerGaleria .cards .card p {
+    text-align: center;
+    font-size: small;
+    border-bottom: 1px solid #a9a2a2;
+}
