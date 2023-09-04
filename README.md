@@ -1,5 +1,7 @@
 # Fabrica de Software - Desafio Front-End
 
+- ℹ️ Deploy url: https://starwarsapi-workshop.netlify.app
+
 ## Tecnologias Usadas ⚛️
 
 - React(Components,UseState,UseEffect)
