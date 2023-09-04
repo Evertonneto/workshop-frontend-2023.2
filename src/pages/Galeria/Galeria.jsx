@@ -32,11 +32,11 @@ const Galeria = () => {
                         hover:scale-110 duration-150  min-h-[230px]" key={dado.created}>
                                 <h2 className='shadow-lg' >{dado.name}</h2>
                                 <p>Massa: {dado.mass}</p>
-                                <p>Hair Color:{dado.hair_color == "n/a" ? "Não Defenido" : dado.hair_color}</p>
-                                <p>Skin Color:{dado.skin_color}</p>
-                                <p>Eye Color:{dado.eye_color}</p>
-                                <p>Birth Year:{dado.birth_year}</p>
-                                <p>Gender: {dado.gender}</p>
+                                <p>Hair Color: {dado.hair_color == "n/a" ? "Não Definido" : dado.hair_color}</p>
+                                <p>Skin Color: {dado.skin_color}</p>
+                                <p>Eye Color: {dado.eye_color}</p>
+                                <p>Birth Year: {dado.birth_year == "unknown" ? "Não definido" : dado.birth_year}</p>
+                                <p>Gender: {dado.gender == "n/a" ? "Não Definido" : dado.gender}</p>
                             </div>
                         )
 
