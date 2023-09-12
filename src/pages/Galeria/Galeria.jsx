@@ -11,7 +11,6 @@ const Galeria = () => {
         fetch("https://swapi.dev/api/people/ ")
             .then(res => res.json())
             .then(data => {
-                console.log(data)
                 setDados(data.results)
             }).catch((error) => console.log(error))
 
@@ -24,7 +23,7 @@ const Galeria = () => {
 
             <div className='containerGaleria'>
                 <h1 className='text-stone-50'>Galeria de Personagens</h1>
-                <div className='cards max-w-[900px]'>
+                <div className='cards max-w-[900px] overflow-y-scroll' >
                     {dados.map((dado) => {
                         return (
 
