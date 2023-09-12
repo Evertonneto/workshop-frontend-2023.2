@@ -5,7 +5,7 @@
 ## Tecnologias Usadas ⚛️
 
 - React(Components,UseState,UseEffect)
-- Javacript
+- Javascript
 - CSS (TailwinsCSS e CSS Puro)
 - HTML
 
