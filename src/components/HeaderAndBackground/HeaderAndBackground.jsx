@@ -15,7 +15,7 @@ const HeaderAndBackground = () => {
     })
 
     if (mobile) {
-        conteudo = "<div></div>"
+        conteudo = ""
     } else {
         conteudo = <Video />
     }
