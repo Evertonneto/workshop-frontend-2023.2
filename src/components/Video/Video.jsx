@@ -18,7 +18,7 @@ const Video = () => {
 
         <div className='video-container'>
             <video ref={videoRef} loop muted >
-                <source src="https://player.vimeo.com/external/353456727.sd.mp4?s=d61b94f1e16c4d53d9d229042b384c7e4988f16b&profile_id=164&oauth2_token_id=57447761" type='video/mp4'></source>
+                <source src='https://videos.pexels.com/video-files/2611250/2611250-uhd_2560_1440_30fps.mp4' type='video/mp4'></source>
             </video>
 
         </div>
